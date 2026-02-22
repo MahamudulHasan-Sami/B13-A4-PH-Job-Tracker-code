@@ -250,7 +250,7 @@ function renderInterview() {
 }
 
 // Rendering Part :
- 
+
 function renderRejected() {
     filterSection.innerHTML = '';
     for (const rejected of rejectedList) {
@@ -284,7 +284,7 @@ function renderNotAvailable() {
     notAvailableSection.innerHTML = '';
     const newSectionForNotAvailable = document.createElement("div");
     newSectionForNotAvailable.innerHTML = `
-        <div class="bg-white shadow p-25 text-center py-20 rounded-md">
+        <div class="bg-white shadow p-10 md:p-25 text-center py-20 rounded-md">
             <div class="w-[90px] inline-block"><img src="./assets/jobs.png" alt=""></div>
             <p class="text-2xl font-semibold">No jobs available</p>
             <p class="text-gray-500">Check back soon for new job opportunities</p>
